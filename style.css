@@ -55,6 +55,11 @@ button:hover {
   background: #27394e;
 }
 
+button:focus {
+  background: #27394e;
+  outline-style: solid;
+}
+
 /* Navigation & Hero */
 .main-header {
   background: #131c27;
@@ -89,7 +94,7 @@ nav ul {
 }
 
 .hero {
-  background: linear-gradient(rgba(0,0,0,.4), transparent),url('./assets/img/landing-page.jpg');
+  background: linear-gradient(rgba(0,0,0,.8), transparent),url('./assets/img/landing-page.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
